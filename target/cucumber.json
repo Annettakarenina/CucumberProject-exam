@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-07T16:23:21.926Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2109000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ChangeColorStepDefenition.init()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify sky blue background button functionality",
+        "description": "",
+        "id": "setting-sky-blue-background-functionality;verify-sky-blue-background-button-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 221000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on techfios project page",
+            "match": {
+              "location": "steps.ChangeColorStepDefenition.user_is_on_techfios_project_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"Set SkyBlue Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Set SkyBlue Background\"",
+                  "offset": 0
+                }
+              ],
+              "location": "steps.ChangeColorStepDefenition.button_exists(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3065000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on the button",
+            "match": {
+              "location": "steps.ChangeColorStepDefenition.user_clicks_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 666000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "steps.ChangeColorStepDefenition.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "setting sky blue background functionality",
+    "description": "",
+    "id": "setting-sky-blue-background-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/setSkyBlueBackground.feature",
+    "tags": []
+  }
+]
